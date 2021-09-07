@@ -1,0 +1,192 @@
+#---------------------------------------------------------------------------------TOLYDINE LENTELE
+#---------------------------------------------KIEKIU HISTOGRAMA
+kiekiai = tolydinioTipoLentele[kiekisColumn]
+kiekiaiBins = [780, 790, 800, 810, 820]
+#plt.hist(kiekiai, bins=kiekiaiBins, edgecolor='black')
+plt.tight_layout()
+plt.title('Atributu kiekiai')
+plt.xlabel('Tvarkingu duomenu kiekis')
+plt.ylabel('Kiekis')
+#plt.show()
+
+#---------------------------------------------KIEKIU HISTOGRAMA
+
+#---------------------------------------------TRUKSTAMU REIKSMIU HISTOGRAMA
+trukstamuReiksmiuProc = tolydinioTipoLentele[trukstamuReiksmiuProcColumn]
+trukstamBins = [0, 0.2, 0.4, 0.6, 0.8, 1, 1.2, 1.4, 1.6]
+#plt.hist(trukstamuReiksmiuProc, bins=trukstamBins, edgecolor='black')
+plt.tight_layout()
+plt.title('Atributu trukstamos reiksmes %')
+plt.xlabel('Trukstamu reiksmiu kiekis')
+plt.ylabel('Kiekis')
+#plt.show()
+#---------------------------------------------TRUKSTAMU REIKSMIU HISTOGRAMA
+
+#---------------------------------------------KARDINALUMO HISTOGRAMA
+kardinalumai = tolydinioTipoLentele[kardinalumasColumn]
+kardinalumaiBins = [0, 50, 100, 150, 200, 250, 300]
+#plt.hist(kardinalumai, bins=kardinalumaiBins, edgecolor='black')
+plt.tight_layout()
+plt.title('Duomenu kardinalumai')
+plt.xlabel('Kardinalumas')
+plt.ylabel('Kiekis')
+#plt.show()
+#---------------------------------------------KARDINALUMO HISTOGRAMA
+
+#---------------------------------------------MINIMALIU REIKSMIU HISTOGRAMA
+minReiksmes = tolydinioTipoLentele[minimaliReiksmeColumn]
+minReiksmesBins = [0, 4, 8, 12, 16, 20]
+#plt.hist(minReiksmes, bins=minReiksmesBins, edgecolor='black')
+plt.tight_layout()
+plt.title('Duomenu min reiksmes')
+plt.xlabel('Min reiksmes')
+plt.ylabel('Kiekis')
+#plt.show()
+#---------------------------------------------MINIMALIU REIKSMIU HISTOGRAMA
+
+#---------------------------------------------MAKSIMALIU REIKSMIU HISTOGRAMA
+maxReiksmes = tolydinioTipoLentele[maksimaliReiksmeColumn]
+maxReiksmesBins = [0, 50, 100, 150, 200, 250, 300, 350]
+#plt.hist(maxReiksmes, bins=maxReiksmesBins, edgecolor='black')
+plt.tight_layout()
+plt.title('Duomenu max reiksmes')
+plt.xlabel('Max reiksmes')
+plt.ylabel('Kiekis')
+#plt.show()
+#---------------------------------------------MAKSIMALIU REIKSMIU HISTOGRAMA
+
+#---------------------------------------------PIRMUJU KVARTILIU REIKSMIU HISTOGRAMA
+pirmiejiKvartiliai = tolydinioTipoLentele[pirmasisKvantilisColumn]
+pirmiejiKvartiliaiBins = [0, 50, 100, 150, 200, 250, 300, 350]
+#plt.hist(pirmiejiKvartiliai, bins=pirmiejiKvartiliaiBins, edgecolor='black')
+plt.tight_layout()
+plt.title('Pirmuju kvartiliu reiksmes')
+plt.xlabel('Kvartiliu reiksmes')
+plt.ylabel('Kiekis')
+#plt.show()
+#---------------------------------------------PIRMUJU KVARTILIU REIKSMIU HISTOGRAMA
+
+#---------------------------------------------TRECIUJU KVARTILIU REIKSMIU HISTOGRAMA
+tretiejiKvartiliai = tolydinioTipoLentele[treciasisKvantilisColumn]
+tretiejiKvartiliaiBins = [0, 50, 100, 150, 200, 250, 300, 350]
+#plt.hist(tretiejiKvartiliai, bins=tretiejiKvartiliaiBins, edgecolor='black')
+plt.tight_layout()
+plt.title('Treciuju kvartiliu reiksmes')
+plt.xlabel('Kvartiliu reiksmes')
+plt.ylabel('Kiekis')
+#plt.show()
+#---------------------------------------------TRECIUJU KVARTILIU REIKSMIU HISTOGRAMA
+
+#---------------------------------------------VIDURKIU REIKSMIU HISTOGRAMA
+vidurkiai = tolydinioTipoLentele[vidurkisColumn]
+vidurkiaiBins = [0, 50, 100, 150, 200, 250, 300, 350]
+#plt.hist(vidurkiai, bins=vidurkiaiBins, edgecolor='black')
+plt.tight_layout()
+plt.title('Duomenu vidurkiu reiksmes')
+plt.xlabel('Vidurkiu reiksmes')
+plt.ylabel('Kiekis')
+#plt.show()
+#---------------------------------------------VIDURKIU REIKSMIU HISTOGRAMA
+
+#---------------------------------------------MEDIANU REIKSMIU HISTOGRAMA
+medianos = tolydinioTipoLentele[medianaColumn]
+medianosBins = [0, 50, 100, 150, 200, 250, 300, 350]
+#plt.hist(medianos, bins=medianosBins, edgecolor='black')
+plt.tight_layout()
+plt.title('Duomenu medianu reiksmes')
+plt.xlabel('medianu reiksmes')
+plt.ylabel('Kiekis')
+#plt.show()
+#---------------------------------------------MEDIANU REIKSMIU HISTOGRAMA
+
+#---------------------------------------------STANDARTINIU NUOKRYPIU REIKSMIU HISTOGRAMA
+standartiniaiNuokrypiai = tolydinioTipoLentele[medianaColumn]
+standartiniaiNuokrypiaiBins = [0, 50, 100, 150, 200, 250, 300, 350]
+#plt.hist(standartiniaiNuokrypiai, bins=standartiniaiNuokrypiaiBins, edgecolor='black')
+plt.tight_layout()
+plt.title('Duomenu standartiniu nuokrypiu reiksmes')
+plt.xlabel('Standartyniu nuoktypiu reiksmes')
+plt.ylabel('Kiekis')
+#plt.show()
+#---------------------------------------------STANDARTINIU NUOKRYPIU REIKSMIU HISTOGRAMA
+#---------------------------------------------------------------------------------TOLYDINE LENTELE
+
+#---------------------------------------------------------------------------------KATEGORINE LENTELE
+#---------------------------------------------KIEKIU HISTOGRAMA
+kiekiai = kategorinioTipoLentele[kiekisColumn]
+kiekiaiBins = [780, 790, 800, 810, 820]
+#plt.hist(kiekiai, bins=kiekiaiBins, edgecolor='black')
+plt.tight_layout()
+plt.title('Atributu kiekiai')
+plt.xlabel('Tvarkingu duomenu kiekis')
+plt.ylabel('Kiekis')
+#plt.show()
+
+#---------------------------------------------KIEKIU HISTOGRAMA
+
+#---------------------------------------------TRUKSTAMU REIKSMIU HISTOGRAMA
+trukstamuReiksmiuProc = kategorinioTipoLentele[trukstamuReiksmiuProcColumn]
+trukstamBins = [0, 10, 20, 30, 40, 50]
+#plt.hist(trukstamuReiksmiuProc, bins=trukstamBins, edgecolor='black')
+plt.tight_layout()
+plt.title('Atributu trukstamos reiksmes %')
+plt.xlabel('Trukstamu reiksmiu kiekis')
+plt.ylabel('Kiekis')
+#plt.show()
+#---------------------------------------------TRUKSTAMU REIKSMIU HISTOGRAMA
+
+#---------------------------------------------KARDINALUMO HISTOGRAMA
+kardinalumai = kategorinioTipoLentele[kardinalumasColumn]
+kardinalumaiBins = [0, 100, 200, 300, 400, 500, 600, 700, 800]
+#plt.hist(kardinalumai, bins=kardinalumaiBins, edgecolor='black')
+plt.tight_layout()
+plt.title('Duomenu kardinalumai')
+plt.xlabel('Kardinalumas')
+plt.ylabel('Kiekis')
+#plt.show()
+#---------------------------------------------KARDINALUMO HISTOGRAMA
+
+#---------------------------------------------MODOS DAZNUMO HISTOGRAMA
+modosDaznumas = kategorinioTipoLentele[modaFrequenceColumn]
+modosDaznumasBins = [0, 100, 200, 300, 400, 500, 600, 700, 800]
+#plt.hist(modosDaznumas, bins=modosDaznumasBins, edgecolor='black')
+plt.tight_layout()
+plt.title('Duomenu modos daznumas')
+plt.xlabel('Modos')
+plt.ylabel('Kiekis')
+#plt.show()
+#---------------------------------------------MODOS DAZNUMO HISTOGRAMA
+
+#---------------------------------------------MODOS KIEKIO % HISTOGRAMA
+modosKiekis = kategorinioTipoLentele[modaPercentageColumn]
+modosKiekisBins = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+#plt.hist(modosKiekis, bins=modosKiekisBins, edgecolor='black')
+plt.tight_layout()
+plt.title('Duomenu kardinalumai')
+plt.xlabel('Modos kiekis %')
+plt.ylabel('Kiekis')
+#plt.show()
+#---------------------------------------------MODOS KIEKIO % HISTOGRAMA
+
+#---------------------------------------------ANTROS MODOS DAZNUMO HISTOGRAMA
+modosDaznumas = kategorinioTipoLentele[secondaryModaFrequenceColumn]
+modosKiekisBins = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+#plt.hist(modosDaznumas, bins=modosKiekisBins, edgecolor='black')
+plt.tight_layout()
+plt.title('Duomenu modos daznumas')
+plt.xlabel('Antros modos')
+plt.ylabel('Kiekis')
+#plt.show()
+#---------------------------------------------ANTROS MODOS DAZNUMO HISTOGRAMA
+
+#---------------------------------------------ANTROS MODOS KIEKIO % HISTOGRAMA
+modosKiekis = kategorinioTipoLentele[secondaryModaPercentageColumn]
+modosKiekisBins = [0, 4, 8, 12, 16, 20]
+plt.hist(modosKiekis, bins=modosKiekisBins, edgecolor='black')
+plt.tight_layout()
+plt.title('Duomenu kardinalumai')
+plt.xlabel('Modos kiekis %')
+plt.ylabel('Kiekis')
+plt.show()
+#---------------------------------------------ANTROS MODOS KIEKIO % HISTOGRAMA
+#---------------------------------------------------------------------------------KATEGORINE LENTELE
